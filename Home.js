@@ -9,7 +9,8 @@ function HoursOfOperation(){
             <div class="box">
                 <section class="section">
                     <div class="container">
-                        <p>Open</p>
+                        <h1 class="title">Hours of Operation</h1>
+                        <h2 class="subtitle">Summer Hours:</h2>
                         <p> Monday-Friday: 9am - 7pm</p>
                         <p>Saturday: 11am - 4pm</p>
                         <p>Sunday: 1pm - 6pm</p>
@@ -26,7 +27,8 @@ function WelcomeIntro(){
             <br/>
             <section class="section">
                 <div class="container">
-                     <p>Beds + Bulbs = Results</p>
+                    <h1 class="title">Tanning</h1>
+                    <p>Beds + Bulbs = Results</p>
                     <p>Simplicity. No Fees. No Contracts.</p>
                 </div>
             </section>
@@ -40,6 +42,7 @@ function MembershipCosts(){
             <br/>
             <section class="section">
                 <div class="container">
+                    <h2 class="subtitle">Money Back Guarantee</h2>
                     <p>Unlimited Prices</p>
                     <p>Month Unlimited = 31 days</p>
                     <p>Level & Two $30.99</p>
@@ -56,13 +59,13 @@ export default function Home(){
             <br/>
             <section class="section">
                 <div class="container">
-                <HoursOfOperation/>
-                <WelcomeIntro/>
-                <MembershipCosts/>
-                <img src={imagetanningbed} alt="Tanning Bed"/>
-                <img src={imagetanninggirl} alt="Tanning Member"/>
-                <img src={imagespraytanning} alt="Tanning Spray"/>
-            </div>
+                    <HoursOfOperation/>
+                    <WelcomeIntro/>
+                    <MembershipCosts/>
+                    <img src={imagetanningbed} alt="Tanning Bed"/>
+                    <img src={imagetanninggirl} alt="Tanning Member"/>
+                    <img src={imagespraytanning} alt="Tanning Spray"/>
+                </div>
             </section>
         </div>
     );
