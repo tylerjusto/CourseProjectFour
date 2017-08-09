@@ -10,8 +10,8 @@ export default function YouTube(props){
                 width={640} height={360} frameBoarder={0}
                 style={{
                     position: 'absolute',
-                    width: '30%',
-                    height: '30%',
+                    width: '100%',
+                    height: '100%',
                     left:0
                 }}
                 allowFullScreen
